@@ -5,7 +5,7 @@ pipeline {
 		}
 	}
 
-	stages('Build') {
+	stages {
 		stage('Build') {
 				steps {
 					withMaven(maven: 'M3') {
